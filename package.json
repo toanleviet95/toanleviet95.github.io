@@ -18,7 +18,9 @@
   "license": "ISC",
   "dependencies": {
     "react": "^16.12",
-    "react-dom": "^16.12"
+    "react-dom": "^16.12",
+    "react-to-print": "^2.8.0",
+    "styled-components": "^5.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.3.3",
@@ -56,5 +58,11 @@
     "hooks": {
       "pre-commit": "yarn lint-staged"
     }
+  },
+  "alias": {
+    "components": "./src/components",
+    "containers": "./src/containers",
+    "constants": "./src/constants",
+    "utils": "./src/utils"
   }
 }

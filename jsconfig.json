@@ -1,9 +1,14 @@
 {
   "compilerOptions": {
     "target": "es6",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "constants/*": ["./src/constants/*"],
+      "components/*": ["./src/components/*"],
+      "containers/*": ["./src/containers/*"],
+      "utils/*": ["./src/utils/*"]
     }
   }
 }

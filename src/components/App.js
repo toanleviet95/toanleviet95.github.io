@@ -1,17 +1,8 @@
 import React from 'react';
+import Page from 'containers/Page';
 
 const App = () => (
-  <div>
-    Tech Stack:
-    <ul>
-      <li>React</li>
-      <li>Babel</li>
-      <li>Parcel</li>
-      <li>ESlint</li>
-      <li>Stylelint</li>
-      <li>Travis CI</li>
-    </ul>
-  </div>
+  <Page />
 );
 
 export default App;
