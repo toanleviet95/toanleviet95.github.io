@@ -8,7 +8,8 @@
       "constants/*": ["./src/constants/*"],
       "components/*": ["./src/components/*"],
       "containers/*": ["./src/containers/*"],
-      "utils/*": ["./src/utils/*"]
+      "utils/*": ["./src/utils/*"],
+      "assets/*": ["./src/assets/*"]
     }
   }
 }

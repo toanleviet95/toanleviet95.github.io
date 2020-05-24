@@ -1,6 +1,3 @@
-
-const urlFont = 'https://fonts.googleapis.com/css?family=Sacramento|Dekko';
-
 const mainFont = 'Dekko';
 
 const titleFont = 'Sacramento';
@@ -18,7 +15,6 @@ const colorFour = 'hsla(0, 0%, 100%, 0.5)';
 const drawnBorder = '255px 15px 255px 15px/15px 225px 15px 225px';
 
 export default {
-    urlFont,
     mainFont,
     titleFont,
     logoFont,

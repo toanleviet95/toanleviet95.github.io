@@ -15,7 +15,7 @@ module.exports = {
     'react-hooks/exhaustive-deps': 1,
     'comma-dangle': [1, 'always-multiline'],
     'eol-last': [2, 'always'],
-    'import/no-unresolved': [2, { ignore: ['constants/', 'components/', 'containers/', 'utils/'] }],
+    'import/no-unresolved': [2, { ignore: ['constants/', 'components/', 'containers/', 'utils/', 'assets/'] }],
     quotes: [1, 'single'],
     semi: [1, 'always'],
     'jsx-quotes': [1, 'prefer-single'],

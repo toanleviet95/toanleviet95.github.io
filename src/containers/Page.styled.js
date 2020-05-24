@@ -1,12 +1,17 @@
 import { createGlobalStyle } from 'styled-components';
 
 const StyledGlobal = createGlobalStyle`
-    @import url('${props => props.theme.urlFont}');
+    h2,h3,h4,h5,h6 {
+        font-family: ${props => props.theme.titleFont};
+        font-weight: bold;
+        font-size: 1.2em;
+        text-align: center;
+    }
     .about {
         font: 100% ${props => props.theme.mainFont};
         
         .wrapper {
-            padding: 5%;
+            padding: 2%;
         }
         
         .social-me {
@@ -19,13 +24,6 @@ const StyledGlobal = createGlobalStyle`
             li {
                 text-align: center;
             }
-        }
-        
-        h1,h2,h3,h4,h5,h6{
-            font-family: ${props => props.theme.titleFont};
-            font-weight: bold;
-            font-size: 150%;
-            text-align: center;
         }
         
         .about-me, .skills {
@@ -63,6 +61,13 @@ const StyledGlobal = createGlobalStyle`
     @media (max-width: 768px) {
         .wrapper {
             margin: 12px;
+        }
+    }
+
+    @media print {
+        .about {page-break-after: always;}
+        @page {
+            size: portrait;
         }
     }
 `;
