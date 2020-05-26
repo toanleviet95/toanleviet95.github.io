@@ -11,7 +11,7 @@ const StyledGlobal = createGlobalStyle`
         font: 100% ${props => props.theme.mainFont};
         
         .wrapper {
-            padding: 2%;
+            padding: 4%;
         }
         
         .social-me {

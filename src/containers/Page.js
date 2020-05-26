@@ -25,7 +25,9 @@ const Page = () => {
   
   return (
     <>
-      <PrintButton onPrint={handlePrint} />
+      <div className='text-center my-8'>
+        <PrintButton onPrint={handlePrint} />
+      </div>
       <div ref={componentRef}>
         <StyledGlobal theme={theme} />
         <section className='about'>
@@ -37,7 +39,7 @@ const Page = () => {
               <div className='col-span-2'>
                 <Summary />
               </div>
-              <div className='col-span-1'>
+              <div className='col-span-1 flex'>
                 <Card>
                   <div className='py-6'>
                     <Contact />
@@ -67,7 +69,7 @@ const Page = () => {
                   </Card>
                 </div>
               </div>
-              <div className='col-span-1'>
+              <div className='col-span-1 flex'>
                 <Card>
                   <div className='mt-4'>
                     <Education />

@@ -13,7 +13,7 @@ const Interest = () => (
     <div className='bg-gray-100 p-4 text-sm border border-gray-400 rounded'>
       <div>
         <Icon src={computerLaptop} alt='computerLaptop' width='1em' />
-        <span>Competitive programming on Leetcode</span>
+        <span>Competitive coding</span>
       </div>
       <div>
         <Icon src={calendar} alt='calendar' width='1em' />
