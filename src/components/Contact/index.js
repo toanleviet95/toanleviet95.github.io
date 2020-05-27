@@ -10,36 +10,36 @@ import phone from 'assets/icons/phone.svg';
 const Contact = () => (
   <>
     <h2>-- Contact --</h2>
-    <div className='text-center'>
+    <div className='text-center text-sm'>
       <Icon src={phone} name='phone' width='0.7em' />
       <span>(+84) 938239554</span>
     </div>
-    <div className='flex items-center bg-gray-100 border border-gray-400 rounded'>
-      <div className='flex-1 text-center m-2'>
+    <div className='flex items-center justify-around bg-gray-100 border border-gray-400 rounded'>
+      <div className='m-2'>
         <a
           href='https://github.com/toanleviet95'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <img src={github} alt='github' title='github' />
+          <img style={{ width: 56 }} src={github} alt='github' title='github' />
         </a>
       </div>
-      <div className='flex-1 text-center m-2'>
+      <div className='m-2'>
         <a
           href='https://www.linkedin.com/in/toanleviet95'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <img src={linkedin} alt='linkedin' title='linkedin' />
+          <img style={{ width: 56 }} src={linkedin} alt='linkedin' title='linkedin' />
         </a>
       </div>
-      <div className='flex-1 text-center m-2'>
+      <div className='m-2'>
         <a
           href='skype:toanleviet9495?chat'
           target='_blank'
           rel='noopener noreferrer'
         >
-          <img src={skype} alt='skype' title='skype' />
+          <img style={{ width: 56 }} src={skype} alt='skype' title='skype' />
         </a>
       </div>
     </div>

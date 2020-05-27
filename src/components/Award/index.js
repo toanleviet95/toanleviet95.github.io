@@ -6,7 +6,7 @@ import badge from 'assets/icons/badge.svg';
 const Award = () => (
   <>
     <h2>-- Award --</h2>
-    <div className='bg-gray-100 p-4 text-sm border border-gray-400 rounded'>
+    <div className='bg-gray-100 p-4 text-tiny border border-gray-400 rounded'>
       <div>
         <Icon src={badge} alt='badge' width='1em' />
         <span>TIKI First-Prize Winner For Outstading in 2019</span>

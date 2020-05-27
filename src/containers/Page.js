@@ -10,7 +10,7 @@ import Interest from 'components/Interest';
 import Award from 'components/Award';
 import Working from 'components/Working';
 import Skills from 'components/Skills';
-
+import PetProjects from 'components/PetProjects';
 
 import theme from 'constants/constants.styled';
 import StyledGlobal from './Page.styled';
@@ -41,9 +41,7 @@ const Page = () => {
               </div>
               <div className='col-span-1 flex'>
                 <Card>
-                  <div className='py-6'>
-                    <Contact />
-                  </div>
+                  <Contact />
                 </Card>
               </div>
               <div className='col-span-3'>
@@ -57,6 +55,11 @@ const Page = () => {
         <section className='about mt-8'>
           <section className='wrapper about-me'>
             <div className='grid grid-cols-3 gap-4'>
+              <div className='col-span-3'>
+                <Card>
+                  <PetProjects />
+                </Card>
+              </div>
               <div className='col-span-2'>
                 <div className='mb-4'>
                   <Card>

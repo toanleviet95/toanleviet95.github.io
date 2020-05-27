@@ -46,7 +46,7 @@ const StyledSummary = styled.div `
     padding: 20px;
     p {
         position: relative;
-        font-size: 1.25em;
+        font-size: 0.9em;
         font-family: monospace;
         white-space: normal;
         overflow: hidden;

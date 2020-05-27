@@ -18,7 +18,7 @@ const Education = () => (
         University Of Science
       </div>
     </div>
-    <div className='bg-gray-100 p-4 text-sm border border-gray-400 rounded'>
+    <div className='bg-gray-100 p-4 text-tiny border border-gray-400 rounded'>
       <div>
         <Icon src={education} alt='education' width='1em' />
         <span>Computer Science</span>

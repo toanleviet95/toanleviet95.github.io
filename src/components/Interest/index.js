@@ -10,7 +10,7 @@ import travelWalk from 'assets/icons/travel-walk.svg';
 const Interest = () => (
   <>
     <h2>-- Interest --</h2>
-    <div className='bg-gray-100 p-4 text-sm border border-gray-400 rounded'>
+    <div className='bg-gray-100 p-4 text-tiny border border-gray-400 rounded'>
       <div>
         <Icon src={computerLaptop} alt='computerLaptop' width='1em' />
         <span>Competitive coding</span>
