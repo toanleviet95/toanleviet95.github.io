@@ -15,7 +15,7 @@ const Education = () => (
       </div>
       <StyledBreak />
       <div>
-        University Of Science
+        HCM University Of Science
       </div>
     </div>
     <div className='bg-gray-100 p-4 text-tiny border border-gray-400 rounded'>

@@ -9,10 +9,15 @@ const Working = () => (
     <h2>-- Work Experience --</h2>
     <div className='flex items-center'>
       <div className='w-1/6 p-2 text-center'>
-        <img src={tiki} alt='TIKI CORPORATION' />
+        <a href='https://tiki.vn' target='_blank' rel='noreferrer'>
+          <img src={tiki} alt='TIKI CORPORATION' />
+        </a>
       </div>
       <div className='w-5/6 p-2'>
-        <div>TIKI CORPORATION - (05/2018 - 06/2020)</div>
+        <div>
+          <a href='https://tiki.vn' target='_blank' rel='noreferrer'>TIKI CORPORATION</a>
+          - (05/2018 - 06/2020)
+        </div>
         <div className='text-tiny'>Software Engineer</div>
         <div className='bg-gray-100 p-1 text-tiny border border-gray-400 rounded'>
           <div>
@@ -47,10 +52,15 @@ const Working = () => (
     </div>
     <div className='flex items-center'>
       <div className='w-1/6 p-2 text-center'>
-        <img src={younet} alt='YOUNET' />
+        <a href='https://younetgroup.com' target='_blank' rel='noreferrer'>
+          <img src={younet} alt='YOUNET' />
+        </a>
       </div>
       <div className='w-5/6 p-2'>
-        <div>YOUNET - (04/2017 - 05/2018)</div>
+        <div>
+          <a href='https://younetgroup.com' target='_blank' rel='noreferrer'>YOUNET</a>
+          - (04/2017 - 05/2018)
+        </div>
         <div className='text-tiny'>Fullstack Engineer</div>
         <div className='bg-gray-100 p-1 text-tiny border border-gray-400 rounded'>
           <div>
@@ -74,10 +84,15 @@ const Working = () => (
     </div>
     <div className='flex items-center'>
       <div className='w-1/6 p-2 text-center'>
-        <img src={vng} alt='VNG Corporation' />
+        <a href='https://www.vng.com.vn' target='_blank' rel='noreferrer'>
+          <img src={vng} alt='VNG Corporation' />
+        </a>
       </div>
       <div className='w-5/6 p-2'>
-        <div>VNG CORPORATION - (06/2016 - 09/2016)</div>
+        <div>
+          <a href='https://www.vng.com.vn' target='_blank' rel='noreferrer'>VNG CORPORATION</a>
+          - (06/2016 - 09/2016)
+        </div>
         <div className='text-tiny'>Fresher</div>
         <div className='bg-gray-100 p-1 text-tiny border border-gray-400 rounded'>
           <div>

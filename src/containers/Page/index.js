@@ -1,19 +1,19 @@
 import React, { useRef } from 'react';
 import { useReactToPrint } from 'react-to-print';
 import PrintButton from 'components/PrintButton';
-import Header from 'components//Header';
-import Summary from 'components/Summary';
 import Card from 'components/Card';
-import Contact from 'components/Contact';
-import Education from 'components/Education';
-import Interest from 'components/Interest';
-import Award from 'components/Award';
-import Working from 'components/Working';
-import Skills from 'components/Skills';
-import PetProjects from 'components/PetProjects';
+import Header from 'containers/Header';
+import Summary from 'containers/Summary';
+import Contact from 'containers/Contact';
+import Education from 'containers/Education';
+import Interest from 'containers/Interest';
+import Award from 'containers/Award';
+import Working from 'containers/Working';
+import Skills from 'containers/Skills';
+import PetProjects from 'containers/PetProjects';
 
 import theme from 'constants/constants.styled';
-import StyledGlobal from './Page.styled';
+import StyledGlobal from './styled';
 
 const Page = () => {
   const componentRef = useRef();

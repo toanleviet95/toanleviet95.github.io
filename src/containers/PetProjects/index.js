@@ -6,7 +6,11 @@ const PetProjects = () => (
     <h2>-- Side Projects --</h2>
     <div className='flex justify-around'>
       <div className='py-2 m-2'>
-        <div>Buzzmetricsquo</div>
+        <div>
+          <a href='https://buzzmetricsquo.web.app' target='_blank' rel='noreferrer'>
+            Buzzmetricsquo
+          </a>
+        </div>
         <div className='bg-gray-100 p-2 text-tiny border border-gray-400 rounded'>
           <div>
             * Team size: 2
@@ -24,7 +28,11 @@ const PetProjects = () => (
         </div>
       </div>
       <div className='py-2 m-2'>
-        <div>cvreferral.com</div>
+        <div>
+          <a href='https://jobs.cvreferral.com' target='_blank' rel='noreferrer'>
+            cvreferral.com
+          </a>
+        </div>
         <div className='bg-gray-100 p-2 text-tiny border border-gray-400 rounded'>
           <div>
             * Team size: 5
