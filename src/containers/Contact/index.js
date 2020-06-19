@@ -39,7 +39,7 @@ const Contact = () => (
       </div>
       <div className='m-2'>
         <a
-          href='skype:toanleviet9495?chat'
+          href='https://join.skype.com/invite/eO6ub8WoLQmD'
           target='_blank'
           rel='noopener noreferrer'
         >
