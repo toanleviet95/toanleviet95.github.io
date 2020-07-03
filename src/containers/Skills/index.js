@@ -26,7 +26,7 @@ const Skills = () => (
       </div>
       <div className='flex flex-wrap items-center justify-center'>
         <div className='mb-4'>
-          <img src={css} alt='Angular' title='Angular' />
+          <img src={css} alt='CSS' title='CSS' />
         </div>
         <StyledBreak />
         <div className='text-tiny text-center'>
@@ -44,7 +44,7 @@ const Skills = () => (
       </div>
       <div className='flex flex-wrap items-center justify-center'>
         <div className='mb-4'>
-          <img src={php} alt='VSS' title='CSS' />
+          <img src={php} alt='PHP' title='PHP' />
         </div>
         <StyledBreak />
         <div className='text-tiny text-center'>
@@ -53,7 +53,7 @@ const Skills = () => (
       </div>
       <div className='flex flex-wrap items-center justify-center'>
         <div className='mb-4'>
-          <img src={mysql} alt='PHP' title='PHP' />
+          <img src={mysql} alt='MySQL' title='MySQL' />
         </div>
         <StyledBreak />
         <div className='text-tiny text-center'>
@@ -62,7 +62,7 @@ const Skills = () => (
       </div>
       <div className='flex flex-wrap items-center justify-center'>
         <div className='mb-4'>
-          <img src={firebase} alt='firebase' title='firebase' />
+          <img src={firebase} alt='Firebase' title='Firebase' />
         </div>
         <StyledBreak />
         <div className='text-tiny text-center'>
@@ -71,7 +71,7 @@ const Skills = () => (
       </div>
       <div className='flex flex-wrap items-center justify-center'>
         <div className='mb-4'>
-          <img src={jest} alt='VSS' title='CSS' />
+          <img src={jest} alt='Jest' title='Jest' />
         </div>
         <StyledBreak />
         <div className='text-tiny text-center'>
@@ -82,7 +82,7 @@ const Skills = () => (
       </div>
       <div className='flex flex-wrap items-center justify-center'>
         <div className='mb-4'>
-          <img src={webpack} alt='PHP' title='PHP' />
+          <img src={webpack} alt='Webpack' title='Webpack' />
         </div>
         <StyledBreak />
         <div className='text-tiny text-center'>
@@ -90,7 +90,7 @@ const Skills = () => (
         </div>
       </div>
       <div className='flex flex-wrap items-center justify-center'>
-        <img src={travis} alt='firebase' title='firebase' />
+        <img src={travis} alt='TravisCI' title='TravisCI' />
         <StyledBreak />
         <div className='text-tiny text-center'>
           CI/CD with Travis, Jenkins
