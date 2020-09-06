@@ -1,7 +1,7 @@
 {
-  "name": "react-sample-with-parcel",
+  "name": "toanleviet95.github.io",
   "version": "1.0.0",
-  "description": "React sample with parcel",
+  "description": "My Resume",
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development parcel src/index.html --open",

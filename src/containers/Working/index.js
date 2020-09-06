@@ -1,12 +1,45 @@
 import React from 'react';
 import tiki from 'assets/tiki.png';
-import vng from 'assets/vng.png';
+import gobear from 'assets/gobear.jpg';
 import younet from 'assets/younet.png';
 
 // eslint-disable-next-line react/prop-types
 const Working = () => (
   <>
     <h2>-- Work Experience --</h2>
+    <div className='flex items-center'>
+      <div className='w-1/6 p-2 text-center'>
+        <a href='https://www.gobear.com' target='_blank' rel='noreferrer'>
+          <img src={gobear} alt='gobear' />
+        </a>
+      </div>
+      <div className='w-5/6 p-2'>
+        <div>
+          <a href='https://www.gobear.com' target='_blank' rel='noreferrer'>GOBEAR</a>
+          &nbsp;-&nbsp;(07/2020 - 09/2020)
+        </div>
+        <div className='text-tiny'>
+          Front-end Engineer -
+          {' '}
+          <b>TERMINATE CONTRACT BECAUSE OF COVID DIFFICULTIES</b>
+        </div>
+        <div className='bg-gray-100 p-1 text-tiny border border-gray-400 rounded'>
+          <div>
+            * Team size: 3
+          </div>
+          <div>
+            * Build Components based on
+            {' '}
+            <a className='underline italic' href='https://pantry.gobear.com' target='_blank' rel='noreferrer'> Pantry Design System</a>
+            {' '}
+            for Reusability and Scalability of Front-end Team
+          </div>
+          <div>
+            * Tech: Vue.js + Storybook
+          </div>
+        </div>
+      </div>
+    </div>
     <div className='flex items-center'>
       <div className='w-1/6 p-2 text-center'>
         <a href='https://tiki.vn' target='_blank' rel='noreferrer'>
@@ -16,7 +49,7 @@ const Working = () => (
       <div className='w-5/6 p-2'>
         <div>
           <a href='https://tiki.vn' target='_blank' rel='noreferrer'>TIKI CORPORATION</a>
-          - (05/2018 - 06/2020)
+          &nbsp;-&nbsp;(05/2018 - 06/2020)
         </div>
         <div className='text-tiny'>Software Engineer</div>
         <div className='bg-gray-100 p-1 text-tiny border border-gray-400 rounded'>
@@ -59,7 +92,7 @@ const Working = () => (
       <div className='w-5/6 p-2'>
         <div>
           <a href='https://younetgroup.com' target='_blank' rel='noreferrer'>YOUNET</a>
-          - (04/2017 - 05/2018)
+          &nbsp;-&nbsp;(04/2017 - 05/2018)
         </div>
         <div className='text-tiny'>Fullstack Engineer</div>
         <div className='bg-gray-100 p-1 text-tiny border border-gray-400 rounded'>
@@ -78,31 +111,6 @@ const Working = () => (
           </div>
           <div>
             * Tech: Angular + NodeJS
-          </div>
-        </div>
-      </div>
-    </div>
-    <div className='flex items-center'>
-      <div className='w-1/6 p-2 text-center'>
-        <a href='https://www.vng.com.vn' target='_blank' rel='noreferrer'>
-          <img src={vng} alt='VNG Corporation' />
-        </a>
-      </div>
-      <div className='w-5/6 p-2'>
-        <div>
-          <a href='https://www.vng.com.vn' target='_blank' rel='noreferrer'>VNG CORPORATION</a>
-          - (06/2016 - 09/2016)
-        </div>
-        <div className='text-tiny'>Fresher</div>
-        <div className='bg-gray-100 p-1 text-tiny border border-gray-400 rounded'>
-          <div>
-            * Team size: 5
-          </div>
-          <div>
-            * Develop internal CMS Admin website for network department
-          </div>
-          <div>
-            * Tech: PHP with Phalcon Framework + JS
           </div>
         </div>
       </div>
