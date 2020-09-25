@@ -64,10 +64,22 @@ const StyledGlobal = createGlobalStyle`
         }
     }
 
+    @media (max-width: 640px) {
+        .xs-col-span-1-3, .xs-col-span-2-3 {
+            grid-column: span 3 / span 3;
+        }
+    }
+
     @media print {
         .about {page-break-after: always;}
         @page {
             size: portrait;
+        }
+        .xs-col-span-1-3 {
+            grid-column: span 1 / span 3;
+        }
+        .xs-col-span-2-3 {
+            grid-column: span 2 / span 3;
         }
     }
 `;

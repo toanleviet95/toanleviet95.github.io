@@ -36,10 +36,10 @@ const Page = () => {
               <div className='col-span-3'>
                 <Header text={'{ Le Viet Toan }'} />
               </div>
-              <div className='col-span-3 sm:col-span-3 md:col-span-2'>
+              <div className='xs-col-span-2-3 col-span-2 sm:col-span-3 md:col-span-2 print:col-span-2'>
                 <Summary />
               </div>
-              <div className='col-span-3 sm:col-span-3 md:col-span-1 flex'>
+              <div className='xs-col-span-1-3 col-span-1 sm:col-span-3 md:col-span-1 flex'>
                 <Card>
                   <Contact />
                 </Card>
@@ -60,7 +60,7 @@ const Page = () => {
                   <PetProjects />
                 </Card>
               </div>
-              <div className='col-span-3 sm:col-span-3 md:col-span-2'>
+              <div className='xs-col-span-2-3 col-span-2 sm:col-span-3 md:col-span-2'>
                 <div className='mb-4'>
                   <Card>
                     <Skills />
@@ -72,7 +72,7 @@ const Page = () => {
                   </Card>
                 </div>
               </div>
-              <div className='col-span-3 sm:col-span-3 md:col-span-1 flex'>
+              <div className='xs-col-span-1-3 col-span-1 sm:col-span-3 md:col-span-1 flex'>
                 <Card>
                   <div className='mt-4'>
                     <Education />
