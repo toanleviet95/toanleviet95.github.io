@@ -35,7 +35,7 @@ const Working = () => (
             for Reusability and Scalability of Front-end Team
           </div>
           <div>
-            * Tech: Vue.js + Storybook
+            * Tech: Vue.js + Jest + Storybook
           </div>
         </div>
       </div>
