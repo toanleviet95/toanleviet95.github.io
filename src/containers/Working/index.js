@@ -1,6 +1,6 @@
 import React from 'react';
 import tiki from 'assets/tiki.png';
-import gobear from 'assets/gobear.jpg';
+import chotot from 'assets/chotot.png';
 import younet from 'assets/younet.png';
 
 // eslint-disable-next-line react/prop-types
@@ -9,33 +9,46 @@ const Working = () => (
     <h2>-- Work Experience --</h2>
     <div className='flex items-center'>
       <div className='w-1/6 p-2 text-center'>
-        <a href='https://www.gobear.com' target='_blank' rel='noreferrer'>
-          <img src={gobear} alt='gobear' />
+        <a href='https://www.chotot.com/' target='_blank' rel='noreferrer'>
+          <img src={chotot} alt='chotot' />
         </a>
       </div>
       <div className='w-5/6 p-2'>
         <div>
-          <a href='https://www.gobear.com' target='_blank' rel='noreferrer'>GOBEAR</a>
-          &nbsp;-&nbsp;(07/2020 - 09/2020)
+          <a href='https://www.chotot.com/' target='_blank' rel='noreferrer'>CHOTOT</a>
+          &nbsp;-&nbsp;(11/2020 - Now)
         </div>
         <div className='text-tiny'>
-          Front-end Engineer -
-          {' '}
-          <b>TERMINATE CONTRACT BECAUSE OF COVID DIFFICULTIES</b>
+          Senior Front-end Engineer
         </div>
         <div className='bg-gray-100 p-1 text-tiny border border-gray-400 rounded'>
           <div>
-            * Team size: 3
+            * Team size: 19
           </div>
           <div>
-            * Build Components based on
+            * Develop
             {' '}
-            <a className='underline italic' href='https://pantry.gobear.com' target='_blank' rel='noreferrer'> Pantry Design System</a>
+            <a className='underline italic' href='https://www.chotot.com/' target='_blank' rel='noreferrer'>chotot.com</a>
             {' '}
-            for Reusability and Scalability of Front-end Team
+            - Recommerce platform in Vietnam
           </div>
           <div>
-            * Tech: Vue.js + Jest + Storybook
+            * Tech: React.js + Redux + Next.js + Jest
+          </div>
+        </div>
+        <div className='bg-gray-100 p-1 text-tiny border border-gray-400 rounded mt-2'>
+          <div>
+            * Team size: 4
+          </div>
+          <div>
+            * Develop
+            {' '}
+            CladUI
+            {' '}
+            - Chotot Design System Components
+          </div>
+          <div>
+            * Tech: React.js + Storybook + Jest
           </div>
         </div>
       </div>
@@ -57,7 +70,7 @@ const Working = () => (
             * Team size: 22
           </div>
           <div>
-            * Develop 
+            * Develop
             {' '}
             <a className='underline italic' href='https://sellercenter.tiki.vn' target='_blank' rel='noreferrer'>sellercenter.tiki.vn</a>
             {' '}
@@ -65,20 +78,6 @@ const Working = () => (
           </div>
           <div>
             * Tech: ReactJS + Redux-Saga + Ant Design + Webpack + NodeJS + Jest
-          </div>
-        </div>
-        <div className='bg-gray-100 p-1 text-tiny border border-gray-400 rounded mt-2'>
-          <div>
-            * Team size: 3
-          </div>
-          <div>
-            * Develop 
-            {' '}
-            <a className='underline italic' href='https://apps.apple.com/us/app/tiki-seller-b%C3%A1n-h%C3%A0ng-c%C3%B9ng-tiki/id1437739945' target='_blank' rel='noreferrer'>Tiki Seller Center App</a>
-            {' '}
-          </div>
-          <div>
-            * Tech: React Native + Redux-Saga + Native Base + Code push (App Center)
           </div>
         </div>
       </div>
@@ -100,7 +99,7 @@ const Working = () => (
             * Team size: 6
           </div>
           <div>
-            * Develop 
+            * Develop
             {' '}
             <a className='underline italic' href='https://socialheat.younetmedia.com' target='_blank' rel='noreferrer'>socialheat.younetmedia.com</a>
             {' '}

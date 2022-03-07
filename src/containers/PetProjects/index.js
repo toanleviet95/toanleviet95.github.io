@@ -16,7 +16,7 @@ const PetProjects = () => (
             * Team size: 2
           </div>
           <div>
-            * Develop 
+            * Develop
             {' '}
             <a className='underline italic' href='https://buzzmetricsquo.web.app' target='_blank' rel='noreferrer'>buzzmetricsquo.web.app</a>
             {' '}
@@ -38,7 +38,7 @@ const PetProjects = () => (
             * Team size: 5
           </div>
           <div>
-            * Develop 
+            * Develop
             {' '}
             <a className='underline italic' href='https://jobs.cvreferral.com' target='_blank' rel='noreferrer'>cvreferral.com</a>
             {' '}
@@ -46,6 +46,28 @@ const PetProjects = () => (
           </div>
           <div>
             * Tech: NextJS + Redux-Saga
+          </div>
+        </div>
+      </div>
+      <div className='py-2 m-2'>
+        <div>
+          <a href='https://tssrm.com/' target='_blank' rel='noreferrer'>
+            tssrm.com
+          </a>
+        </div>
+        <div className='bg-gray-100 p-2 text-tiny border border-gray-400 rounded'>
+          <div>
+            * Team size: 5
+          </div>
+          <div>
+            * Develop
+            {' '}
+            <a className='underline italic' href='https://tssrm.com/' target='_blank' rel='noreferrer'>tssrm.com</a>
+            {' '}
+            - Internal Review platform for Designers
+          </div>
+          <div>
+            * Tech: Vue.js + Vuex + ElementUI
           </div>
         </div>
       </div>

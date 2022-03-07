@@ -14,12 +14,12 @@ const Summary = () => (
         $ Hi! I am Toan
       </p>
       <p className='line2'>
-        $ A developer loving technology with 3+ years experience
+        $ A developer loving technology with 4+ years experience
         <br />
         $ Learning something new day by day
       </p>
       <p className='line3'>
-        $ Hope my knowledge 
+        $ Hope my knowledge
         will contribute to your product...
       </p>
       <p className='line4'>

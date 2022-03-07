@@ -1,7 +1,7 @@
 import React from 'react';
 import nodejs from 'assets/skills/node.png';
 import reactImage from 'assets/skills/react.png';
-import php from 'assets/skills/php.png';
+import next from 'assets/skills/next.png';
 import css from 'assets/skills/css.png';
 import firebase from 'assets/skills/firebase.png';
 import mysql from 'assets/skills/mysql.png';
@@ -21,7 +21,7 @@ const Skills = () => (
         </div>
         <StyledBreak />
         <div className='text-tiny text-center'>
-          React, Angular
+          React, Vue
         </div>
       </div>
       <div className='flex flex-wrap items-center justify-center'>
@@ -39,16 +39,16 @@ const Skills = () => (
         </div>
         <StyledBreak />
         <div className='text-tiny text-center'>
-          ExpressJS, FeathersJS, Loopback
+          ExpressJS, FeathersJS
         </div>
       </div>
       <div className='flex flex-wrap items-center justify-center'>
         <div className='mb-4'>
-          <img src={php} alt='PHP' title='PHP' />
+          <img src={next} alt='Next' title='Next' />
         </div>
         <StyledBreak />
         <div className='text-tiny text-center'>
-          Laravel, Phalcon
+          Next.js, Nuxt.js
         </div>
       </div>
       <div className='flex flex-wrap items-center justify-center'>

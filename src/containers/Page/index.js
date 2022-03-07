@@ -22,7 +22,7 @@ const Page = () => {
     content: () => componentRef.current,
     copyStyles: true,
   });
-  
+
   return (
     <>
       <div className='text-center my-8'>
@@ -34,7 +34,7 @@ const Page = () => {
           <section className='wrapper about-me'>
             <div className='grid grid-cols-3 gap-4'>
               <div className='col-span-3'>
-                <Header text={'{ Le Viet Toan }'} />
+                <Header text='Le Viet Toan' />
               </div>
               <div className='xs-col-span-2-3 col-span-2 sm:col-span-3 md:col-span-2 print:col-span-2'>
                 <Summary />
